@@ -9,10 +9,13 @@
     "aos": "^2.3.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-facebook": "^8.1.4",
+    "react-facebook-login": "^4.1.1",
     "react-google-login": "^5.2.2",
     "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-whatsapp": "^0.2.1",
     "router-dom": "^2.2.9",
     "web-vitals": "^2.1.3"
   },

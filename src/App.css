@@ -1,38 +1,195 @@
-.App {
+/* Main */
+.main{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.butt{
+  text-align: center !important ;
+  width: 20%;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 50px !important;
+  background-color: #fff;
+  color: gray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/* Login */
+
+
+
+
+.user_card {
+  height: 400px;
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #f39c12;
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+
+}
+.brand_logo_container {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  border-radius: 50%;
+  background: #60a3bc;
+  padding: 10px;
+  text-align: center;
+}
+.brand_logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.form_container {
+  margin-top: 100px;
+}
+.login_btn {
+  width: 100%;
+  background: #c0392b !important;
+  color: white !important;
+}
+.login_btn:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.login_container {
+  padding: 0 2rem;
+}
+.input-group-text {
+  background: #c0392b !important;
+  color: white !important;
+  border: 0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  background-color: #c0392b !important;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+
+
+/*SignUp*/
+.haupt{
+  
+		color: #fff;
+		background: #19aa8d;
+		font-family: 'Roboto', sans-serif;
+	
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.form-control, .form-control:focus, .input-group-addon {
+  border-color: #e1e1e1;
+}
+  .form-control, .btn {        
+      border-radius: 3px;
   }
-  to {
-    transform: rotate(360deg);
+.signup-form {
+  width: 390px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+  .signup-form form {
+  color: #999;
+  border-radius: 3px;
+    margin-bottom: 15px;
+      background: #fff;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      padding: 30px;
   }
+.signup-form h2 {
+  color: #333;
+  font-weight: bold;
+      margin-top: 0;
+  }
+  .signup-form hr {
+      margin: 0 -30px 20px;
+  }
+.signup-form .form-group {
+  margin-bottom: 20px;
+}
+.signup-form label {
+  font-weight: normal;
+  font-size: 13px;
+}
+.signup-form .form-control {
+  min-height: 38px;
+  box-shadow: none !important;
+}	
+.signup-form .input-group-addon {
+  max-width: 42px;
+  text-align: center;
+}
+.signup-form input[type="checkbox"] {
+  margin-top: 2px;
+}   
+  .signup-form .btn{        
+      font-size: 16px;
+      font-weight: bold;
+  background: #19aa8d;
+  border: none;
+  min-width: 140px;
+  }
+.signup-form .btn:hover, .signup-form .btn:focus {
+  background: #179b81;
+      outline: none;
+}
+.signup-form a {
+  color: #fff;	
+  text-decoration: underline;
+}
+.signup-form a:hover {
+  text-decoration: none;
+}
+.signup-form form a {
+  color: #19aa8d;
+  text-decoration: none;
+}	
+.signup-form form a:hover {
+  text-decoration: underline;
+}
+.signup-form .fa {
+  font-size: 21px;
+}
+.signup-form .fa-paper-plane {
+  font-size: 18px;
+}
+.signup-form .fa-check {
+  color: #fff;
+  left: 17px;
+  top: 18px;
+  font-size: 7px;
+  position: absolute;
+}
+
+
+
+
+/* Yourlink Navbar*/
+
+
+.your{
+
+  margin-left:30%;
+  
 }
